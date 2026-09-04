@@ -1,0 +1,281 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Instale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+
+PS C:\Users\ALUMNOS> cd .\Documents\
+PS C:\Users\ALUMNOS\Documents> git clone https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE.git
+Cloning into 'PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE'...
+remote: Enumerating objects: 1334, done.
+remote: Counting objects: 100% (225/225), done.
+remote: Compressing objects: 100% (132/132), done.
+remote: Total 1334 (delta 169), reused 96 (delta 93), pack-reused 1109 (from 5)
+Receiving objects: 100% (1334/1334), 1.09 MiB | 2.05 MiB/s, done.
+Resolving deltas: 100% (725/725), done.
+PS C:\Users\ALUMNOS\Documents> explorer.exe .
+PS C:\Users\ALUMNOS\Documents> cd .\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        equipos/equipo-05/Backend/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git add .
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/src/main/java/com/voleyP/backend/VoleyPApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/src/test/java/com/voleyP/backend/VoleyPApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git init
+Reinitialized existing Git repository in C:/Users/ALUMNOS/Documents/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE/.git/
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git add .
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git comit  -m "Feat: enviando backen"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git push
+To https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE
+PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE : El término
+'PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE' no se reconoce como nombre de un cmdlet, función, archivo de
+script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (PROGRAMACI-N-PA...ARE-WITH-ORACLE:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git pull
+remote: Enumerating objects: 140, done.
+remote: Counting objects: 100% (140/140), done.
+remote: Compressing objects: 100% (78/78), done.
+remote: Total 133 (delta 30), reused 111 (delta 11), pack-reused 0 (from 0)
+Receiving objects: 100% (133/133), 25.67 KiB | 1.60 MiB/s, done.
+Resolving deltas: 100% (30/30), completed with 6 local objects.
+From https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE
+   00f9e82..cc4389d  main       -> origin/main
+Updating 00f9e82..cc4389d
+Fast-forward
+ backend/TecnoMichiStore/.gitattributes             |   2 +
+ backend/TecnoMichiStore/.gitignore                 |  33 +++
+ .../.mvn/wrapper/maven-wrapper.properties          |   3 +
+ backend/TecnoMichiStore/mvnw                       | 295 +++++++++++++++++++++
+ backend/TecnoMichiStore/mvnw.cmd                   | 189 +++++++++++++
+ backend/TecnoMichiStore/pom.xml                    |  54 ++++
+ .../backend/TecnoMichiStoreApplication.java        |  13 +
+ .../backend/controller/SaludoController.java       |  44 +++
+ .../tecnomichistore/backend/model/Producto.java    |  25 ++
+ .../src/main/resources/application.properties      |   1 +
+ .../backend/TecnoMichiStoreApplicationTests.java   |  13 +
+ equipos/Equipo-02/backend/vet/.idea/.gitignore     |  10 +
+ equipos/Equipo-02/backend/vet/.idea/compiler.xml   |  18 ++
+ equipos/Equipo-02/backend/vet/.idea/encodings.xml  |   6 +
+ .../backend/vet/.idea/jarRepositories.xml          |  20 ++
+ equipos/Equipo-02/backend/vet/.idea/misc.xml       |  14 +
+ equipos/Equipo-02/backend/vet/HELP.md              |  27 ++
+ .../vet/target/classes/application.properties      |   1 +
+ .../vet/target/classes/categoria/categorias.class  | Bin 0 -> 1542 bytes
+ .../classes/com/vet/backend/VetApplication.class   | Bin 0 -> 728 bytes
+ .../vet/backend/controller/SaludoController.class  | Bin 0 -> 3165 bytes
+ .../vet/target/classes/model/Producto.class        | Bin 0 -> 838 bytes
+ .../target/classes/service/VetApplication.class    | Bin 0 -> 283 bytes
+ equipos/equipo-01/backend/Vet/.gitattributes       |   2 +
+ equipos/equipo-01/backend/Vet/.gitignore           |  33 +++
+ .../Vet/.mvn/wrapper/maven-wrapper.properties      |   3 +
+ equipos/equipo-01/backend/Vet/mvnw                 | 295 +++++++++++++++++++++
+ equipos/equipo-01/backend/Vet/mvnw.cmd             | 189 +++++++++++++
+ equipos/equipo-01/backend/Vet/pom.xml              |  54 ++++
+ .../main/java/com/Vet/backend/VetApplication.java  |  13 +
+ .../Vet/backend/controller/SaludoController.java   |  60 +++++
+ .../main/java/com/Vet/backend/model/Producto.java  |  26 ++
+ .../Vet/src/main/resources/application.properties  |   1 +
+ .../java/com/Vet/backend/VetApplicationTests.java  |  13 +
+ .../backend/cancha-voley/.idea/.gitignore          |  10 +
+ .../backend/cancha-voley/.idea/compiler.xml        |  18 ++
+ .../backend/cancha-voley/.idea/encodings.xml       |   6 +
+ .../backend/cancha-voley/.idea/jarRepositories.xml |  20 ++
+ .../equipo-03/backend/cancha-voley/.idea/misc.xml  |  14 +
+ equipos/equipo-03/backend/cancha-voley/HELP.md     |  27 ++
+ .../target/classes/application.properties          |   1 +
+ .../canchavoley/CanchaVoleyApplication.class       | Bin 0 -> 776 bytes
+ .../canchavoley/controller/SaludoController.class  | Bin 0 -> 3461 bytes
+ .../canchavoley/canchavoley/model/Categoria.class  | Bin 0 -> 712 bytes
+ .../canchavoley/canchavoley/model/Producto.class   | Bin 0 -> 1000 bytes
+ equipos/equipo-06/Backend/Alquiler/.gitignore      |  39 +++
+ .../equipo-06/Backend/Alquiler/.idea/.gitignore    |  10 +
+ .../equipo-06/Backend/Alquiler/.idea/encodings.xml |   7 +
+ equipos/equipo-06/Backend/Alquiler/.idea/misc.xml  |  14 +
+ equipos/equipo-06/Backend/Alquiler/.idea/vcs.xml   |   6 +
+ equipos/equipo-06/Backend/Alquiler/pom.xml         |  17 ++
+ .../Alquiler/src/main/java/org/example/Main.java   |  17 ++
+ 52 files changed, 1663 insertions(+)
+ create mode 100644 backend/TecnoMichiStore/.gitattributes
+ create mode 100644 backend/TecnoMichiStore/.gitignore
+ create mode 100644 backend/TecnoMichiStore/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 backend/TecnoMichiStore/mvnw
+ create mode 100644 backend/TecnoMichiStore/mvnw.cmd
+ create mode 100644 backend/TecnoMichiStore/pom.xml
+ create mode 100644 backend/TecnoMichiStore/src/main/java/com/tecnomichistore/backend/TecnoMichiStoreApplication.java
+ create mode 100644 backend/TecnoMichiStore/src/main/java/com/tecnomichistore/backend/controller/SaludoController.java
+ create mode 100644 backend/TecnoMichiStore/src/main/java/com/tecnomichistore/backend/model/Producto.java
+ create mode 100644 backend/TecnoMichiStore/src/main/resources/application.properties
+ create mode 100644 backend/TecnoMichiStore/src/test/java/com/tecnomichistore/backend/TecnoMichiStoreApplicationTests.java
+ create mode 100644 equipos/Equipo-02/backend/vet/.idea/.gitignore
+ create mode 100644 equipos/Equipo-02/backend/vet/.idea/compiler.xml
+ create mode 100644 equipos/Equipo-02/backend/vet/.idea/encodings.xml
+ create mode 100644 equipos/Equipo-02/backend/vet/.idea/jarRepositories.xml
+ create mode 100644 equipos/Equipo-02/backend/vet/.idea/misc.xml
+ create mode 100644 equipos/Equipo-02/backend/vet/HELP.md
+ create mode 100644 equipos/Equipo-02/backend/vet/target/classes/application.properties
+ create mode 100644 equipos/Equipo-02/backend/vet/target/classes/categoria/categorias.class
+ create mode 100644 equipos/Equipo-02/backend/vet/target/classes/com/vet/backend/VetApplication.class
+ create mode 100644 equipos/Equipo-02/backend/vet/target/classes/com/vet/backend/controller/SaludoController.class
+ create mode 100644 equipos/Equipo-02/backend/vet/target/classes/model/Producto.class
+ create mode 100644 equipos/Equipo-02/backend/vet/target/classes/service/VetApplication.class
+ create mode 100644 equipos/equipo-01/backend/Vet/.gitattributes
+ create mode 100644 equipos/equipo-01/backend/Vet/.gitignore
+ create mode 100644 equipos/equipo-01/backend/Vet/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 equipos/equipo-01/backend/Vet/mvnw
+ create mode 100644 equipos/equipo-01/backend/Vet/mvnw.cmd
+ create mode 100644 equipos/equipo-01/backend/Vet/pom.xml
+ create mode 100644 equipos/equipo-01/backend/Vet/src/main/java/com/Vet/backend/VetApplication.java
+ create mode 100644 equipos/equipo-01/backend/Vet/src/main/java/com/Vet/backend/controller/SaludoController.java
+ create mode 100644 equipos/equipo-01/backend/Vet/src/main/java/com/Vet/backend/model/Producto.java
+ create mode 100644 equipos/equipo-01/backend/Vet/src/main/resources/application.properties
+ create mode 100644 equipos/equipo-01/backend/Vet/src/test/java/com/Vet/backend/VetApplicationTests.java
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/.idea/.gitignore
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/.idea/compiler.xml
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/.idea/encodings.xml
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/.idea/jarRepositories.xml
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/.idea/misc.xml
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/HELP.md
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/target/classes/application.properties
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/target/classes/com/canchavoley/canchavoley/CanchaVoleyApplication.class
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/target/classes/com/canchavoley/canchavoley/controller/SaludoController.class
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/target/classes/com/canchavoley/canchavoley/model/Categoria.class
+ create mode 100644 equipos/equipo-03/backend/cancha-voley/target/classes/com/canchavoley/canchavoley/model/Producto.class
+ create mode 100644 equipos/equipo-06/Backend/Alquiler/.gitignore
+ create mode 100644 equipos/equipo-06/Backend/Alquiler/.idea/.gitignore
+ create mode 100644 equipos/equipo-06/Backend/Alquiler/.idea/encodings.xml
+ create mode 100644 equipos/equipo-06/Backend/Alquiler/.idea/misc.xml
+ create mode 100644 equipos/equipo-06/Backend/Alquiler/.idea/vcs.xml
+ create mode 100644 equipos/equipo-06/Backend/Alquiler/pom.xml
+ create mode 100644 equipos/equipo-06/Backend/Alquiler/src/main/java/org/example/Main.java
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   equipos/equipo-05/Backend/voleyP/.gitattributes
+        new file:   equipos/equipo-05/Backend/voleyP/.gitignore
+        new file:   equipos/equipo-05/Backend/voleyP/.mvn/wrapper/maven-wrapper.properties
+        new file:   equipos/equipo-05/Backend/voleyP/mvnw
+        new file:   equipos/equipo-05/Backend/voleyP/mvnw.cmd
+        new file:   equipos/equipo-05/Backend/voleyP/pom.xml
+        new file:   equipos/equipo-05/Backend/voleyP/src/main/java/com/voleyP/backend/VoleyPApplication.java
+        new file:   equipos/equipo-05/Backend/voleyP/src/main/java/com/voleyP/backend/controller/SaludoController.java
+        new file:   equipos/equipo-05/Backend/voleyP/src/main/java/com/voleyP/backend/model/Producto.java
+        new file:   equipos/equipo-05/Backend/voleyP/src/main/resources/application.properties
+        new file:   equipos/equipo-05/Backend/voleyP/src/test/java/com/voleyP/backend/VoleyPApplicationTests.java
+
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git add .
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git commit -m "Feat: Enviando backend de Spring Boot"
+[main a83597b] Feat: Enviando backend de Spring Boot
+ 11 files changed, 697 insertions(+)
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.gitattributes
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.gitignore
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 equipos/equipo-05/Backend/voleyP/mvnw
+ create mode 100644 equipos/equipo-05/Backend/voleyP/mvnw.cmd
+ create mode 100644 equipos/equipo-05/Backend/voleyP/pom.xml
+ create mode 100644 equipos/equipo-05/Backend/voleyP/src/main/java/com/voleyP/backend/VoleyPApplication.java
+ create mode 100644 equipos/equipo-05/Backend/voleyP/src/main/java/com/voleyP/backend/controller/SaludoController.java
+ create mode 100644 equipos/equipo-05/Backend/voleyP/src/main/java/com/voleyP/backend/model/Producto.java
+ create mode 100644 equipos/equipo-05/Backend/voleyP/src/main/resources/application.properties
+ create mode 100644 equipos/equipo-05/Backend/voleyP/src/test/java/com/voleyP/backend/VoleyPApplicationTests.java
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git push
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (33/33), 10.44 KiB | 1.04 MiB/s, done.
+Total 33 (delta 3), reused 6 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 05d29558953d8e0fe743e927ca4103da53953247 but expected cc4389d66c48dff0fee032a2eb05eff74089276f)
+error: failed to push some refs to 'https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE.git'
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git fetch origin
+remote: Enumerating objects: 80, done.
+remote: Counting objects: 100% (80/80), done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 75 (delta 17), reused 2 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (75/75), 17.70 KiB | 46.00 KiB/s, done.
+From https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE
+   cc4389d..2177fed  main       -> origin/main
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git hard --reset origin/main
+git: 'hard' is not a git command. See 'git --help'.
+
+The most similar commands are
+        add
+        var
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git reset --hard origin/main
+HEAD is now at 2177fed Add files via upload
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git add .
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/HELP.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/voleyP/target/classes/application.properties', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git commit -m "Feat: Enviando backend de Spring Boot"
+[main 961b667] Feat: Enviando backend de Spring Boot
+ 10 files changed, 96 insertions(+)
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.idea/.gitignore
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.idea/compiler.xml
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.idea/encodings.xml
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.idea/jarRepositories.xml
+ create mode 100644 equipos/equipo-05/Backend/voleyP/.idea/misc.xml
+ create mode 100644 equipos/equipo-05/Backend/voleyP/HELP.md
+ create mode 100644 equipos/equipo-05/Backend/voleyP/target/classes/application.properties
+ create mode 100644 equipos/equipo-05/Backend/voleyP/target/classes/com/voleyP/backend/VoleyPApplication.class
+ create mode 100644 equipos/equipo-05/Backend/voleyP/target/classes/com/voleyP/backend/controller/SaludoController.class
+ create mode 100644 equipos/equipo-05/Backend/voleyP/target/classes/com/voleyP/backend/model/Producto.class
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE> git push
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (24/24), 4.87 KiB | 623.00 KiB/s, done.
+Total 24 (delta 3), reused 3 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE.git
+   2177fed..961b667  main -> main
+PS C:\Users\ALUMNOS\Documents\PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE>
