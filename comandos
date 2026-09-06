@@ -1,0 +1,158 @@
+Usuario@DESKTOP-QLH087O MINGW64 ~ (main)
+$ cd PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE/
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (main)
+$ git add .
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/CanchaController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ClienteController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/HorarioController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/PagoController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ReservaController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Cancha.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Horario.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Pago.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Reserva.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/CanchaService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ClienteService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/HorarioService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/PagoService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ReservaService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/VoleyPlayApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'equipos/equipo-05/Backend/VoleyPlay/src/test/java/com/VoleyPlay/backend/VoleyPlayApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   equipos/equipo-05/Backend/VoleyPlay/.gitattributes
+        new file:   equipos/equipo-05/Backend/VoleyPlay/.gitignore
+        new file:   equipos/equipo-05/Backend/VoleyPlay/.mvn/wrapper/maven-wrapper.properties
+        new file:   equipos/equipo-05/Backend/VoleyPlay/mvnw
+        new file:   equipos/equipo-05/Backend/VoleyPlay/mvnw.cmd
+        new file:   equipos/equipo-05/Backend/VoleyPlay/pom.xml
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/VoleyPlayApplication.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/CanchaController.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ClienteController.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/HorarioController.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/PagoController.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ProductoController.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ReservaController.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/SaludoController.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Cancha.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Cliente.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Horario.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Pago.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Producto.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Reserva.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/CanchaService.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ClienteService.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/HorarioService.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/PagoService.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ProductoService.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ReservaService.java
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/main/resources/application.properties
+        new file:   equipos/equipo-05/Backend/VoleyPlay/src/test/java/com/VoleyPlay/backend/VoleyPlayApplicationTests.java
+
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (main)
+$ git fetch origin
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (main)
+$ git switch --track origin/equipo-05-spring
+A       equipos/equipo-05/Backend/VoleyPlay/.gitattributes
+A       equipos/equipo-05/Backend/VoleyPlay/.gitignore
+A       equipos/equipo-05/Backend/VoleyPlay/.mvn/wrapper/maven-wrapper.properties
+A       equipos/equipo-05/Backend/VoleyPlay/mvnw
+A       equipos/equipo-05/Backend/VoleyPlay/mvnw.cmd
+A       equipos/equipo-05/Backend/VoleyPlay/pom.xml
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/VoleyPlayApplication.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/CanchaController.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ClienteController.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/HorarioController.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/PagoController.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ProductoController.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ReservaController.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/SaludoController.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Cancha.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Cliente.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Horario.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Pago.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Producto.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Reserva.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/CanchaService.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ClienteService.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/HorarioService.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/PagoService.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ProductoService.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ReservaService.java
+A       equipos/equipo-05/Backend/VoleyPlay/src/main/resources/application.properties
+A       equipos/equipo-05/Backend/VoleyPlay/src/test/java/com/VoleyPlay/backend/VoleyPlayApplicationTests.java
+branch 'equipo-05-spring' set up to track 'origin/equipo-05-spring'.
+Switched to a new branch 'equipo-05-spring'
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (equipo-05-spring)
+$ git add .
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (equipo-05-spring)
+$ git comit -m "Feat: Enviando modelo, controller y servicio de la entidad de cliente, horario, cancha, pago y reserva"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (equipo-05-spring)
+$ git commit -m "Feat: Enviando modelo, controller y servicio de la entidad de cliente, horario, cancha, pago y reserva"
+[equipo-05-spring 4e5a7a3] Feat: Enviando modelo, controller y servicio de la entidad de cliente, horario, cancha, pago y reserva
+ 28 files changed, 1256 insertions(+)
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/.gitattributes
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/.gitignore
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/mvnw
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/mvnw.cmd
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/pom.xml
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/VoleyPlayApplication.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/CanchaController.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ClienteController.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/HorarioController.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/PagoController.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ProductoController.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/ReservaController.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/controller/SaludoController.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Cancha.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Cliente.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Horario.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Pago.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Producto.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/model/Reserva.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/CanchaService.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ClienteService.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/HorarioService.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/PagoService.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ProductoService.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/java/com/VoleyPlay/backend/services/ReservaService.java
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/main/resources/application.properties
+ create mode 100644 equipos/equipo-05/Backend/VoleyPlay/src/test/java/com/VoleyPlay/backend/VoleyPlayApplicationTests.java
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (equipo-05-spring)
+$ git push
+Enumerating objects: 55, done.
+Counting objects: 100% (55/55), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (51/51), 15.30 KiB | 921.00 KiB/s, done.
+Total 51 (delta 12), reused 6 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (12/12), completed with 3 local objects.
+To https://github.com/Meowwuw/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE.git
+   a56e71f..4e5a7a3  equipo-05-spring -> equipo-05-spring
+
+Usuario@DESKTOP-QLH087O MINGW64 ~/PROGRAMACI-N-PARA-DESARROLLO-DE-SOFTWARE-WITH-ORACLE (equipo-05-spring)
+$
